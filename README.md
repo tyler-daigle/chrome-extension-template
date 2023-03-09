@@ -18,6 +18,10 @@ does anything correctly or according to "best practices".
 
 You can also consult the documentation for Rollup to make any changes to **rollup.config.js**.
 
+**You might also have to change the build script in packge.json. It uses the cp command to
+copy the manifest.json to the dist folder. You may have to change this on Windows to use copy 
+instead of cp.**
+
 ## How to use
 
 - Fork this repository or click the **"Use this template"** button on the [github page](https://github.com/tyler-daigle/chrome-extension-template)
