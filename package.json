@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs && cp manifest.json ./dist",
-    "clean" : "rm -rf ./dist"
+    "clean": "rm -rf ./dist"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.19.0"
+  }
 }

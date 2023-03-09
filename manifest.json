@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Read Later",
+  "name": "Starter Template",
   "version": "1.0",
-  "description": "Save a list of pages to read later.",
+  "description": "This is just a template - you should add a description here.",
   "content_scripts" : [
     {
         "js" : ["scripts/content.js"],
