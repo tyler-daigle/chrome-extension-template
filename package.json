@@ -1,0 +1,13 @@
+{
+  "name": "read-later",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs && cp manifest.json ./dist",
+    "clean" : "rm -rf ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

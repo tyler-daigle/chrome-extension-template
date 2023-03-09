@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Read Later",
+  "version": "1.0",
+  "description": "Save a list of pages to read later.",
+  "content_scripts" : [
+    {
+        "js" : ["scripts/content.js"],
+        "matches" : ["<all_urls>"]
+    }
+    ],
+    "background" : {
+        "service_worker" : "scripts/background.js"
+    }
+}
