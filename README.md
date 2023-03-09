@@ -20,7 +20,7 @@ You can also consult the documentation for Rollup to make any changes to **rollu
 
 ## How to use
 
-- Fork this repository
+- Fork this repository or click the **"Use this template"** button on the [github page](https://github.com/tyler-daigle/chrome-extension-template)
 - First run **npm install** to install rollup.
 - Edit the scripts in the **src** directory
 - run the build command from the **package.json** file: 
